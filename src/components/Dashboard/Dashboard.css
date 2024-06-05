@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    display: flex;
+    /* background-color: rgba(237,237,237);
+     */
+     background: white;
+}
+
+.content{
+    width: 1125px;
+    align-items: flex-end;
+    height: 100%;
+    position: absolute;
+    margin-left: 245px;
+    flex-wrap: wrap;
+}
+
+.cost{
+    justify-content: center;
+    background: white;
+    padding: 0;
+}
+
+.card-wrapper{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: center;
+    gap: 2.5rem;
+    margin-top: 2rem;
+    padding-bottom: 3rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.card{
+    padding: 1rem 2rem 2rem 2rem;
+    /* border: 2px solid #8a5b25; */
+    border-radius: 1rem;  
+    flex-wrap: wrap;
+    box-shadow: 0 10px 10px #cec2b6;
+    transform: 1s;
+    /* background-color: #8a5b25; */
+}
+
+.card:hover{
+    transform: scale(1.03);
+}
+
+.card h6{
+    font-size: large;
+    font-weight: bold;
+    padding-bottom: 10px;
+    color: #8a5b25;
+    text-align: center;
+    padding-top: 10px;
+    font-size: large;
+}
+
+.card p{
+    color: rgb(10, 10, 27);
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    
+} 
+
+.title{
+    margin: 5px 10px 10px 10px;
+}
+
+.title h3{
+    font-weight: bold;
+    font-size: 25px;
+    color: rgb(10, 10, 27);
+}
+
+.small{
+    margin: 25px;
+}
+
+.red{
+    background: rgb(247, 216, 216);
+}
+
+.purple{
+    background: rgb(242, 183, 242);
+}
+
+.green{
+    background: rgb(165, 245, 165);
+}
+
+.bleu{
+    background: rgb(161, 161, 223);
+}
+
+.chart{
+    width: 100%;
+}

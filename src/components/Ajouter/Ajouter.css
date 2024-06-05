@@ -1,0 +1,42 @@
+.table-reservation{
+    width: 100%;
+    border-collapse: collapse;
+   
+}
+
+.table-reservation th{
+    /* background-color: #8a5b25; */
+    color: #8a5b25;
+    padding: 15px;
+    text-align: center;
+}
+
+tbody{
+    background: #f2f2f2;
+}
+
+.table-reservation td, tr{
+    text-align: center;
+}
+
+td{
+    padding: 15px;
+    font-size: 14px;
+    color: rgb(10, 10, 27);
+}
+
+tr:nth-child(even){
+    background: #f1f1f1;
+}
+
+.validation img{
+    width: 20px;
+}
+
+.image:hover{
+    background-color: #8a5b25;
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 2px;
+    transform: scale(2);
+}

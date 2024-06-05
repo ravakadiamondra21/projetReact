@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    display: flex;
+    /* background-color: rgba(237,237,237);
+     */
+     background: white;
+}
+
+.header{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.header img{
+    width: 15px;
+    border-radius: 50px;
+    padding-top: .2rem;
+}
+
+.search{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(237,237,237);
+    padding : 7px;
+    margin-right: 45px;
+    border-radius: 5px;
+}
+
+.search input{
+    border: none;
+    border-radius: 5px;
+    padding: 2px;
+}
+
+.content{
+    width: 1110px;
+    align-items: flex-end;
+    height: 100%;
+    position: absolute;
+    margin-left: 245px;
+    flex-wrap: wrap;
+}
+
+.container{
+    justify-content: center;
+    background: white;
+    padding: 0;
+}
+
+.title{
+    margin: 5px 10px 10px 10px;
+}
+
+.title h3{
+    font-weight: bold;
+    font-size: 25px;
+    /* color: #8a5b25; */
+}
+
+.small{
+    margin: 25px;
+    padding-top: 10px;
+}
+
+.table-wrapper{
+    margin-top: 2rem;
+    margin-left: 2rem;
+    width: 93%;
+    /* box-shadow: 10px 15px 15px rgb(232, 230, 230); */
+    padding: 0%;
+    
+}
+
+.table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table th{
+    color: #8a5b25;
+    /* color: white; */
+    padding: 15px;
+    text-align: center;
+}
+
+tbody{
+    background: #f2f2f2;
+}
+
+.table td, tr{
+    text-align: center;
+}
+
+td{
+    padding: 15px;
+    font-size: 14px;
+    color: rgb(10, 10, 27);
+}
+
+td:hover{
+    scale: 5px;
+}
+
+tr:nth-child(even){
+    background: #fff;
+}
+
+.validation img{
+    width: 20px;
+}
